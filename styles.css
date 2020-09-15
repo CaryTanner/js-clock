@@ -1,0 +1,53 @@
+#outer-circle {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    shape-outside: circle();
+    clip-path: circle(); 
+    top: 25%;
+    left: 25%;
+    position: absolute;
+  }
+  
+  #circle {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: lightgrey;
+    shape-outside: circle();
+    clip-path: circle(); 
+    top: 25px;
+    left: 25px;
+    transition: 0.5s
+  }
+  
+  
+  
+  
+  .hand {
+    width: 7px;
+    height: 330px;
+    background: linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 50%);
+    position: absolute;
+    left: 175px;
+    top: 10px;
+    
+  }
+  
+  .hour-hand {
+    transform: rotate(0deg);
+    height: 280px;
+    top: 35px;
+  }
+  
+  .minute-hand {
+    transform: rotate(0deg);
+  }
+  
+  .second-hand {
+    transform: rotate(0deg);
+    width: 3px;
+  }
+  
+  
+  
